@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    border: 7px solid white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.imagen-defon {
+    background-image: url("./img/road-cover.jpg");
+    height: 60vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ 
+
+

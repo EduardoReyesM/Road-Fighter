@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.imagen-fondo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./img/roadfig.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.2); 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 35px;
+    
+    
+}
+
+h3.mover {
+    display: flex;
+}
+
+h3 {
+    color: rgb(252, 255, 255);
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px 15px;
+    width: 200px;
+}
+
+h3:hover {
+    color:rgb(247, 7, 7);
+    border-color:rgb(247, 7, 7);
+    cursor: pointer;
+}
+
+
+
